@@ -1,10 +1,10 @@
 ## Flarum 简体中文 / Simplified Chinese 语言包
 
-GitHub: https://github.com/penguinSeven/flarum-ext-simplified-chinese.git
+GitHub: https://github.com/penguinseven/flarum-ext-simplified-chinese.git
 
 ### 语言包简介
 
-本语言包由 **[penguinSeven](https://penguinseven.club/)** 制作并发行
+本语言包由 **[penguinseven](https://penguinseven.club/)** 制作并发行
 
 基于 [flarum/english](https://github.com/flarum/flarum-ext-english) 翻译  
 
