@@ -1,28 +1,28 @@
 {
-    "name": "jsthon/flarum-ext-simplified-chinese",
+    "name": "penguinSeven/flarum-ext-simplified-chinese",
     "type": "flarum-extension",
     "description": "Simplified Chinese language pack.",
     "keywords": ["locale"],
     "license": "MIT",
-    "version": "v0.1.0-beta.7",
+    "version": "v0.1.0-beta.9",
     "authors": [
         {
-            "name": "Jsthon Wong",
-            "email": "jsthon@outlook.com"
+            "name": "PenguinSeven",
+            "email": "penguinseven@126.com"
         }
     ],
     "support": {
-        "source": "https://github.com/jsthon/flarum-ext-simplified-chinese"
+        "source": "https://github.com/penguinSeven/flarum-ext-simplified-chinese"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.7"
+        "flarum/core": "^0.1.0-beta.9"
     },
     "extra": {
         "flarum-extension": {
-            "title": "Simplified Chinese",
+            "title": "Simplified Chinese for 0.1.0-beta.9",
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#DE2910",
+                "backgroundColor": "#1b64ad",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }

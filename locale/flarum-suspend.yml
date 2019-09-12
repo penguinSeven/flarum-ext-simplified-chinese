@@ -13,12 +13,16 @@ flarum-suspend:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} 冻结了 {timeReadable}"
+      user_unsuspended_text: "{username} 解封了你的账户"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: 永久冻结
-      limited_time_label: 自定义时间
       limited_time_days_text: " 天"
+      limited_time_label: 自定义时间
       not_suspended_label: 不冻结
       status_heading: 冻结用户状态
       submit_button: => core.ref.save_changes

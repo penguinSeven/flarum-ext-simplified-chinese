@@ -17,6 +17,7 @@ validation:
   boolean: ":attribute 只能选择 true 或 false"
   confirmed: ":attribute 不匹配"
   date: ":attribute 不是有效的日期"
+  date_equals: ":attribute 必须等于 :date."
   date_format: ":attribute 与格式 :other 不匹配"
   different: ":attribute 与 :other 不一致"
   digits: ":attribute 只能是 :digits 位数"
@@ -24,9 +25,20 @@ validation:
   dimensions: ":attribute 图片尺寸无效"
   distinct: ":attribute 是一个重复的值"
   email: ":attribute 必须是有效的"
+  ends_with: ":attribute 必须在 :values 之后"
   exists: "选择的 :attribute 无效"
   file: ":attribute 必须是个有效文件"
   filled: ":attribute 必须是个有效值"
+  gt:
+    numeric: "The :attribute must be greater than :value."
+    file: "The :attribute must be greater than :value kilobytes."
+    string: "The :attribute must be greater than :value characters."
+    array: "The :attribute must have more than :value items."
+  gte:
+    numeric: "The :attribute must be greater than or equal :value."
+    file: "The :attribute must be greater than or equal :value kilobytes."
+    string: "The :attribute must be greater than or equal :value characters."
+    array: "The :attribute must have :value items or more."
   image: ":attribute 只能是图像"
   in: "选择的 :attribute 无效"
   in_array: ":attribute 在 :other 中不存在"
@@ -35,6 +47,16 @@ validation:
   ipv4: ":attribute 必须是有效的 IPv4 地址"
   ipv6: ":attribute 必须是有效的 IPv6 地址"
   json: ":attribute 必须是有效的 JSON 字符串"
+  lt:
+    numeric: "The :attribute must be less than :value."
+    file: "The :attribute must be less than :value kilobytes."
+    string: "The :attribute must be less than :value characters."
+    array: "The :attribute must have less than :value items."
+    lte:
+      numeric: "The :attribute must be less than or equal :value."
+      file: "The :attribute must be less than or equal :value kilobytes."
+      string: "The :attribute must be less than or equal :value characters."
+      array: "The :attribute must not have more than :value items."
   max:
     numeric: ":attribute 不能超过 :max."
     file: ":attribute 不能大于 :maxKB"
@@ -48,6 +70,7 @@ validation:
     string: ":attribute 至少有 :min 个字符"
     array: ":attribute 至少有 :min 个"
   not_in: "选择的 :attribute 无效"
+  not_regex: ":attribute 格式无效"
   numeric: ":attribute 只能是一个数字"
   present: ":attribute 必须存在一个值"
   regex: ":attribute 格式无效"
@@ -64,11 +87,13 @@ validation:
     file: ":attribute 只能有 :sizeKB"
     string: ":attribute 只能有 :size 个字符"
     array: ":attribute 只能有 :size 个"
+  starts_with: ":attribute 必须在 :values 之前"
   string: ":attribute 必须是一个字符串"
   timezone: ":attribute 必须是有效的"
   unique: ":attribute 已经存在"
   uploaded: ":attribute 上传失败"
   url: ":attribute 格式无效"
+  uuid: ":attribute 必须是有效的UUID."
 
   attributes:
     username: 用户名

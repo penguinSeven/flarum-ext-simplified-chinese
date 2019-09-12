@@ -18,6 +18,8 @@ flarum-tags:
       delete_tag_confirmation: "你确定删除这个分类吗？删除后该分类中的话题不会被删除。"
       description_label: 描述
       hide_label: 首页所有话题中隐藏
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: URL
@@ -71,6 +73,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: 修改分类
 
+    header:
+      back_to_tags_tooltip: 返回标签列表
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: 更多...
@@ -87,11 +92,11 @@ flarum-tags:
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
-    # This translation displayed in place of the name of a tag that's been deleted.
+    # This translation is  displayed in place of the name of a tag that's been deleted.
     deleted_tag_text: 已删除
 
   ##
-  # REUSED STRINGS - These keys should not be used directly in code!
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
